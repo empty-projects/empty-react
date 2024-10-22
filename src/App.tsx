@@ -2,9 +2,9 @@ import './App.css'
 
 function App() {
   return (
-    <>
-      <h1 className={'text-amber-600'}>Vite + React</h1>
-    </>
+    <div className={'h-screen flex flex-col items-center justify-center'}>
+      <h1 className={'text-amber-600 text-4xl font-bold'}>Vite + React + Tailwind</h1>
+    </div>
   )
 }
 
